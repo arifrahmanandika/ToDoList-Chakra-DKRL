@@ -1,4 +1,10 @@
-import { Container, Checkbox, CheckboxGroup, Stack } from "@chakra-ui/react";
+import {
+  Container,
+  Checkbox,
+  CheckboxGroup,
+  Stack,
+  Box,
+} from "@chakra-ui/react";
 import { DeleteIcon } from "@chakra-ui/icons";
 
 function ListToDo() {
@@ -10,7 +16,17 @@ function ListToDo() {
             <Checkbox size="sm" color="white">
               Share Jadwal DepMus
             </Checkbox>
-            <DeleteIcon color="white" />
+            <Box
+              as="button"
+              borderRadius="md"
+              borderColor="white"
+              bg="tomato"
+              color="gray.500"
+              px={4}
+              h={8}
+            >
+              <DeleteIcon color="white" />
+            </Box>
           </Stack>
           <Stack direction="row">
             <Checkbox size="sm" color="white">

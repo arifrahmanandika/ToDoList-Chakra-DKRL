@@ -1,4 +1,4 @@
-import { Button, Center, Container, Input, Text } from "@chakra-ui/react";
+import { Button, Container, Input, Text } from "@chakra-ui/react";
 
 function ToolsToDo() {
   return (
