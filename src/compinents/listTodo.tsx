@@ -18,7 +18,7 @@ function ListToDo() {
           <Box>
             <Stack direction="row" alignItems="center" justifyContent="center">
               <Checkbox size="sm" color="white">
-                <Text>{item_list[0]}</Text>
+                <Text textDecoration={"line-through"}>{item_list[0]}</Text>
               </Checkbox>
               <Box
                 ml="auto"
