@@ -1,7 +1,7 @@
 import { Container } from "@chakra-ui/react";
-import Title from "./compinents/title";
-import ListToDo from "./compinents/listTodo";
-import ToolsToDo from "./compinents/toolsTodo";
+import Title from "./components/title";
+import ListToDo from "./components/listTodo";
+import ToolsToDo from "./components/toolsTodo";
 
 function App() {
   return (
